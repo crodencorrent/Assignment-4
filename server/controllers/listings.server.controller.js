@@ -90,7 +90,6 @@ exports.list = function(req, res) {
       console.log(err);
       res.status(400).send(err);
     }
-    console.log(listings);
     res.json(listings);
   })
 };
